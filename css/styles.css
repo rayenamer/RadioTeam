@@ -1189,13 +1189,14 @@ textarea {
 /* --------------------------------------------------------------------
  * ## base type styles
  * -------------------------------------------------------------------- */
-body {
-    font-family: var(--font-1);
-    font-size  : var(--base-font-size);
-    font-weight: 400;
+ body {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300; /* Light font */
+    font-size: var(--base-font-size);
     line-height: var(--vspace-1);
-    color      : var(--color-text);
+    color: var(--color-text);
 }
+
 
 /* links
  */
@@ -3147,6 +3148,8 @@ td:last-child {
 
 .s-header__menu-links a {
     display            : block;
+    font-family        : 'Prompt', sans-serif; /* Use Prompt font */
+    font-weight        : 300; /* Light weight */
     font-family        : var(--font-1);
     font-weight        : 400;
     font-size          : 1.5rem;
@@ -3406,6 +3409,8 @@ td:last-child {
 }
 
 .s-intro__content-title {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300; /* Light variant */
     font-size     : clamp(3.8rem, 4.8vw, 8.8rem);
     line-height   : 1.045;
     letter-spacing: -0.025em;
